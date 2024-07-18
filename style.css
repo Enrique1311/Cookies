@@ -1,0 +1,35 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+.modal-container {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #0008;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 2rem;
+}
+
+.hidden {
+	opacity: 0;
+}
+
+.modal {
+	background-color: white;
+	padding: 3rem;
+	text-align: center;
+}
+
+.accept,
+.deny {
+	padding: 0.5rem 1rem;
+	margin: 0 1rem;
+	margin-top: 1rem;
+	font-weight: bold;
+}
